@@ -1,0 +1,27 @@
+{
+  "name": "@origin-ming/tools",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "WangMing <wangming@tsintergy.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/tools.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "url": "https://github.com/OriginMing/-origin-ming.git",
+    "type": "git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/tools.test.js"
+  }
+}
